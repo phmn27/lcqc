@@ -1,6 +1,7 @@
 ---
 title: "Deluxe Grand Suites"
 imagefront: "/deluxe-grand-suites/1.jpg"
+book: "https://be.synxis.com/?chain=22402&hotel=78821&locale=es-MX&src=24C&room=DGS%20%20"
 square: "760 – 1,280 ft² | 71 – 120 m²"
 beds: "King Size Bed"
 guest: "2 Guests"

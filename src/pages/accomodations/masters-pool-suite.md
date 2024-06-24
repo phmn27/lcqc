@@ -1,6 +1,7 @@
 ---
 title: "Master Pool Suite"
 imagefront: "/master-pool-suite/5.jpg"
+book: "https://be.synxis.com/?chain=22402&hotel=78821&locale=es-MX&src=24C&room=STE%20%20"
 square: "1,100 -1,735 ft² | 103-160 m²"
 beds: "King Size Bed"
 guest: "2 Guests"

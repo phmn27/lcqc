@@ -1,6 +1,7 @@
 ---
 title: "Terrace Suites"
 imagefront: "/terrace-suite/4.jpg"
+book: "https://be.synxis.com/?chain=22402&hotel=78821&locale=es-MX&src=24C&room=A1K"
 square: "685-1,035 ft² | 65-95 m²"
 beds: "King Size Bed"
 guest: "2 Guests"

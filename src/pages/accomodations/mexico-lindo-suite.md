@@ -1,6 +1,7 @@
 ---
 title: "Mexico Lindo Suite"
 imagefront: "/mexico-lindo-suite/2.jpg"
+book: "https://be.synxis.com/?chain=22402&hotel=78821&locale=es-MX&src=24C&room=SMS%20%20"
 square: "1,760 ft² | 165 m²"
 beds: "King Size Bed"
 guest: "2 Guests"

@@ -1,6 +1,7 @@
 ---
 title: "Owner's Pool Suite"
 imagefront: "/accomodations/4.jpeg"
+book: "https://be.synxis.com/?adult=1&arrive=2024-06-21&chain=22402&child=0&currency=USD&depart=2024-06-22&hotel=78821&level=hotel&locale=es-MX&room=OWN&rooms=1&src=24C"
 square: "1,200 ft² | 112 m²"
 beds: "King Size Bed"
 guest: "2 Guests"
