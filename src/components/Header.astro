@@ -1,9 +1,9 @@
-<nav class="p-4 z-50 fixed flex justify-between items-center w-full mix-blend-differenceF">
+<nav id="navbar" class="p-4 z-50 fixed flex justify-between items-center w-full">
     <div class="flex justify-between items-center ">
         <label class="block  relative z-40 cursor-pointer px-3 py-6" for="mobile-menu">
             <input class="peer hidden" type="checkbox" id="mobile-menu" />
-            <div
-                class="relative z-50 block h-[2px] rounded-full w-7 bg-white  content-[''] before:absolute before:top-[-0.55rem] before:z-50 before:block before:h-full before:w-full before:bg-white before:transition-all before:duration-200 before:ease-out before:content-[''] after:absolute after:right-0 after:bottom-[-0.55rem] after:block after:h-full after:w-full after:bg-white after:transition-all after:duration-200 after:ease-out after:content-[''] peer-checked:bg-white/0  before:peer-checked:top-0 before:peer-checked:w-full before:peer-checked:rotate-45 before:peer-checked:transform after:peer-checked:bottom-0 after:peer-checked:w-full after:peer-checked:-rotate-45 after:peer-checked:transform after:peer-checked:bg-black before:peer-checked:bg-black peer-checked:right-0"
+            <div id="menu-icon"
+                class="relative z-50 block h-[2px] rounded-full w-7 bg-white  content-[''] before:absolute before:top-[-0.55rem] before:z-50 before:block before:h-full before:w-full before:bg-white before:transition-all before:duration-200 before:ease-out before:content-[''] after:absolute after:right-0 after:bottom-[-0.55rem] after:block after:h-full after:w-full after:bg-white after:transition-all after:duration-200 after:ease-out after:content-[''] peer-checked:!bg-white/0  before:peer-checked:top-0 before:peer-checked:w-full before:peer-checked:rotate-45 before:peer-checked:transform after:peer-checked:bottom-0 after:peer-checked:w-full after:peer-checked:-rotate-45 after:peer-checked:transform after:peer-checked:bg-black before:peer-checked:bg-black peer-checked:right-0"
             >
             </div>
             <div
@@ -29,7 +29,7 @@
 
                     </menu>
                     <menu class="flex uppercase flex-col text-2xl space-y-6 font-medium  py-8 ">
-                        <li class="grid hover:underline"><a href="/">Booking</a><span class="text-base">Best Rate Guarentee</span></li>
+                        <li class="grid hover:underline"><a target="_blank"  href="https://be.synxis.com/?chain=22402&hotel=78821&src=24C">Booking</a><span class="text-base">Best Rate Guarentee</span></li>
 
                     </menu>
                     
@@ -38,6 +38,32 @@
         </label>
     </div>
     <div>
-        <a href="#" class="uppercase py-3 px-6 bg-white/90 font-semibold tracking-widest text-black">Book Now</a>
+        <a target="_blank" href="https://be.synxis.com/?chain=22402&hotel=78821&src=24C" class="uppercase py-3 px-6 bg-black/90 font-semibold tracking-widest text-white">Book Now</a>
     </div>
 </nav>
+
+<style>
+    .navbar-scroll {
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+.navbar-scroll #menu-icon,.navbar-scroll #menu-icon::before,.navbar-scroll #menu-icon::after {
+    background-color: black;
+    transition: background-color 0.3s;
+}
+
+
+</style>
+
+<script>
+    window.addEventListener('scroll', function() {
+        const navbar = document.getElementById('navbar');
+        if (window.scrollY > 50) {
+            navbar.classList.add('navbar-scroll');
+        } else {
+            navbar.classList.remove('navbar-scroll');
+        }
+    });
+</script>
+

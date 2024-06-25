@@ -11,9 +11,9 @@ const suggestedoffers = offers.filter(room => room.frontmatter.title !== frontma
     <div>
        <img class="h-72 w-full object-cover" src={frontmatter.imagefront} alt="">
     </div>
-    <div class="max-w-7xl mx-auto py-16 px-4 grid gap-8  items-center">
+    <div class="max-w-7xl mx-auto py-16 px-4 grid md:gap-8  items-center">
        
-        <div class="grid content-between h-full">
+        <div class=" h-full">
             <div class="">
                 <h1 class="text-5xl lg:text-7xl font-bold ">{frontmatter.title}</h1>
                 <p class="mb-3 ">Offer available from <b>{frontmatter.date}</b></p>
@@ -22,7 +22,7 @@ const suggestedoffers = offers.filter(room => room.frontmatter.title !== frontma
             <div class="flex gap-4 flex-wrap  mb-8">
                 <a href={frontmatter.book} target="_blank" class="w-full md:w-auto text-center text-sm bg-black/90 font-semibold uppercase py-3 px-6 text-white hover:bg-black/60">Book Now</a>
             </div>
-            <div class="md:columns-2 colums-full">
+            <div class="text-sm columns-1 md:text-base  md:columns-2 columns-full">
                 <slot/>
                 <div class="mt-4">
                     <p>
